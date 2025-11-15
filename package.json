@@ -1,0 +1,29 @@
+{
+  "name": "jk6841",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist node_modules",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "react": "^19.2",
+    "react-dom": "^19.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1",
+    "@tailwindcss/vite": "^4.1",
+    "@biomejs/biome": "^2.3",
+    "@types/react": "^19.2",
+    "@types/react-dom": "^19.2",
+    "@vitejs/plugin-react": "^5.1",
+    "typescript": "^5.9",
+    "vite": "^7.2",
+    "rollup-plugin-visualizer": "^6.0"
+  }
+}
